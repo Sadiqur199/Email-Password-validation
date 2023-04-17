@@ -70,7 +70,7 @@ const handelrecetpassword = ()=>{
 
 
   return (
-    <MDBContainer fluid className="p-3 my-5 h-custom">
+    <MDBContainer fluid className="p-5 my-5 h-custom bg-success rounded text-white">
 
       <MDBRow>
 
@@ -113,7 +113,7 @@ const handelrecetpassword = ()=>{
 
             <div className="d-flex justify-content-between mb-4">
               <MDBCheckbox name='flexCheck' value='' id='flexCheckDefault' label='Remember me' />
-              <button className='' onClick={handelrecetpassword} href="!#">Forgot password?</button>
+              <button className='border-0 btn btn-primary u' onClick={handelrecetpassword} href="!#"><u>Forgot password?</u></button>
             </div>
 
             <div className='text-center text-md-start mt-4 pt-2'>
